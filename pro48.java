@@ -1,0 +1,18 @@
+class pre
+{
+public static void main(String args[]){
+int i=10;
+int a=i++;
+System.out.println("a="+a);
+System.out.println("i="+i);
+++i;
+System.out.println("i="+i);
+int j=10;
+int b=++i;
+System.out.println("b="+b);
+++b;
+System.out.println("b="+b);
+System.out.println(b++);
+
+}
+}
